@@ -1,5 +1,4 @@
 SUFFIX="35"
-
 DEPLOYMENTNAME="acade2"-$SUFFIX
 SUBSCRIPTION_ID=$(az account show --query id -o tsv) #subscriptionid
 LOCATION="westeurope" # here enter the datacenter location
